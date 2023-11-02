@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4.6rem;
+    margin-bottom: 0;
+    background-color: #6F00FF;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+nav div ul{
+    display:inline-flex;
+
+    
+}
+
+nav div ul li{
+    list-style: none;
+    margin: 1.2rem;
+}
+
+nav div ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav .kayBlog{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    letter-spacing: 0.12em;
+    font-weight: 900;
+}
+
+main{
+    background-color: #1a1f71;
+    margin-top: 4em;
+}
+
+.avatar1{
+    height: 3.1rem;
+    border: 5px solid black;
+    border-radius: 50%;
+
+}
+
+
+.prefooter{
+    height: 11rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prefooter div ul{
+    width: 13.2em;
+}
+
+.prefooter div ul li{
+    text-align: center;
+    list-style: none;
+    margin: 2.1rem 0;
+    font-size: 0.9rem; 
+    font-weight: 700;
+    color: #4B61D1;
+    cursor: pointer;
+}
+
+.prefooter div ul li:hover{
+    color: #ccc;
+
+}
+footer{
+    background-color: #2E2787;
+}
+
+.footerItems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 23rem;
+}
+
+.footerItems div ul{
+    margin-top: 0;
+}
+
+.footerItems div ul li{
+    width: 13.5em;
+    margin-top: 1.1rem;
+    list-style: none;
+    color: #ffffffec;
+    font-size: 0.9em;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+.footerItems div ul li:hover{
+    letter-spacing: 0.12em;
+}
+
+.footerItems div ul li h1{
+    color: #fff;
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4.5rem;
+    background-color: #4B61D1;
+    color: #ccc;
+}
+
+hr{
+    /* border: none; */
+    height: 3px;
+    border-color: black;
+    margin-left: 0.7em;
+}
+
+.hrFooter{
+    border: none;
+    height: 3px;
+    border-color: #1a1f71;
+}
